@@ -1,0 +1,72 @@
+Proyek ini adalah aplikasi web sederhana berbasis PHP dan MySQL yang digunakan untuk mengelola data inventaris barang. Sistem dibangun untuk memenuhi kebutuhan pengelolaan data barang masuk di lingkungan sekolah atau kantor, dilengkapi dengan fitur CRUD, filter, pencarian, serta antarmuka berbasis Bootstrap.
+
+🛠️ Teknologi yang Digunakan
+PHP (Native, tanpa framework)
+
+MySQL
+
+Bootstrap 5
+
+HTML & CSS
+
+JavaScript (sedikit)
+
+XAMPP (sebagai local server)
+
+🔁 Alur Program
+Database:
+
+Terdiri dari 2 tabel utama: barang dan kategori.
+
+Halaman Utama (barang/index.php):
+
+Menampilkan daftar seluruh barang.
+
+Disertai fitur pencarian berdasarkan nama barang dan filter berdasarkan kategori.
+
+Fitur pagination untuk membatasi jumlah barang yang ditampilkan per halaman.
+
+Form Tambah dan Edit:
+
+Validasi input seperti:
+
+Nama barang tidak boleh kosong.
+
+Stok dan harga harus berupa angka positif.
+
+Dropdown kategori diambil dari tabel kategori.
+
+Manajemen Kategori (kategori/):
+
+CRUD kategori pada halaman terpisah.
+
+Nama kategori disimpan dalam tabel kategori dan digunakan sebagai relasi pada barang.
+
+Notifikasi CRUD:
+
+Setelah tambah/edit/hapus barang, muncul notifikasi menggunakan alert Bootstrap.
+
+Export Data (opsional):
+
+Data barang dapat diekspor ke format Excel atau PDF (jika fitur ini diaktifkan).
+
+✅ Fitur Utama
+✅ CRUD Barang (Create, Read, Update, Delete)
+
+✅ Fitur pencarian barang berdasarkan nama
+
+✅ Filter barang berdasarkan kategori
+
+✅ Validasi input data (nama, stok, harga)
+
+✅ CRUD Kategori Barang (halaman terpisah)
+
+✅ Dropdown kategori saat menambah barang
+
+✅ Navigasi sederhana dan responsive dengan Bootstrap
+
+✅ Pagination
+
+✅ Notifikasi CRUD berhasil (success message)
+
+✅ Export ke Excel/PDF (jika tersedia)
